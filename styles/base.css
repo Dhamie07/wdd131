@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #17466e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    background-color: #17466e;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card Section */
+.card {
+    flex: 1;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    background-color: #17466e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 20px 0;
+}
+
+/* About Me Section */
+.card img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Landscape {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Landscape img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.Landscape figcaption {
+    font-style: italic;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Web-Dev Resources Links */
+.card a {
+    display: block;
+    color: #9b3a8c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #17466e;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer #lastModified {
+    color: #ffd700;
+}
