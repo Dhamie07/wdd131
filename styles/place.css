@@ -17,11 +17,6 @@ header {
     padding: 10px 0;
 }
 
-h2{
-    background-color: #588157;
-    color: white;
-}
-
 .container {
     display: block;
     padding: 20px;
@@ -38,8 +33,9 @@ h2{
 }
 
 .data, .weather {
-    border: 1px solid #ccc;
+    border: none;
     padding: 15px;
+    font-size: 18px;
     background-color: #DAD7CD;
     margin-bottom: 20px;
     color: black;
@@ -47,6 +43,14 @@ h2{
 
 .icon {
     font-size: 1.5em;
+}
+
+.weather-icon-mobile {
+    display: block; /* Show by default */
+}
+
+.weather-icon-wide {
+    display: none; /* Hide by default */
 }
 
 footer {
@@ -108,8 +112,17 @@ footer {
     }
 
     h2 {
-        
+        background-color: #588157;
+        color: white;
         font-size: 1.2rem; 
+    }
+
+    .weather-icon-mobile {
+        display: none; /* Hide SVG on wider view */
+    }
+
+    .weather-icon-wide {
+        display: inline; /* Show the emoticon */
     }
 }
 

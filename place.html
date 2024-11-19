@@ -34,15 +34,18 @@
                 <li>Time Zone: GMT+1</li>
             </ul>
         </section>
-        <section class="weather">
-            <h2>Weather <span class="weather-icon">⛅</span></h2>
+        <div class="weather">
+            <h2>Weather <span class="weather-icon-wide">⛅</span></h2>
+            <div class="weather-icon-mobile">
+                <img src="images/weather_icon.svg" alt="Weather icon" />
+            </div> 
             <ul>
                 <li>Temperature: 10℃</li>
                 <li>Conditions: Partly Cloudy</li>
                 <li>Wind: 5 km/h</li>
                 <li>Wind Chill: <span id="windChill">Calculating...</span></li>
             </ul>
-        </section>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> <span id="yourname"></span> Lagos,Nigeria</p>
