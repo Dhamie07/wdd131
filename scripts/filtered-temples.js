@@ -78,7 +78,7 @@ const temples = [
 function createTempleCard(temple) {
     const card = document.createElement("section");
     card.innerHTML = `
-        <h3>${temple.templeName}</h3>
+        <h2>${temple.templeName}</h2>
         <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy">
         <p><strong>Location:</strong> ${temple.location}</p>
         <p><strong>Dedicated:</strong> ${temple.dedicated}</p>
