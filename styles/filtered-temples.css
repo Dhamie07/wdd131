@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+#hambutton {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none; /* Default hidden for larger screens */
+}
+
+#navmenu {
+    display: flex;
+    gap: 20px;
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navmenu a:hover {
+    color: #ffcc00;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #f4b400;
+}
+
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.res-grid section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.res-grid section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}
+
+.res-grid section:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    #hambutton {
+        display: block; /* Show hamburger button */
+    }
+
+    #navmenu {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        gap: 10px;
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Position below the header */
+        right: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #navmenu.show {
+        display: flex; /* Show menu when active */
+    }
+}
