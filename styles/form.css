@@ -69,7 +69,6 @@ font-size: .9rem;
 
 .wf2 input[type="submit"]{
     border: none;
-    background-image: linear-gradient(grey);
     color: black;
     border-radius: 6px;
     padding: .8rem;
@@ -82,7 +81,6 @@ font-size: .9rem;
 
 .stars {
     display: flex;
-    justify-content: top;
     gap: 10px; /* Adjust spacing between stars */
 }
   
