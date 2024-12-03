@@ -6,6 +6,9 @@
     <title>Product Review Form</title>
     <meta name="description" content="A Product Review">
     <meta name="author" content="Okpewo Damilola James">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
 </head>
@@ -17,7 +20,7 @@
         <form id="reviewForm" method="get" action="review.html"  class="wf2">
             <label>Product Name
                 <select name="product">
-                        <option value="" disabled selected>Choose a Product.... </option>
+                    <option value="" disabled selected>Choose a Product.... </option>
                 </select>
             <!-- Overall Rating -->
             <fieldset>
@@ -32,7 +35,7 @@
                 <label> Date of Installation <input type="date" name="installDate" required></label>
             </fieldset>
             <fieldset>
-                <legend>Which features did you find useful in the product? (Check all that apply)</legend>
+                <legend>Which features did you find useful in the product? <i>(Check all that apply)</i></legend>
                 <div>
                     <label><input type="checkbox" name="features" value="durability">Durability</label>
                     <label><input type="checkbox" name="features" value="ease of use">Ease of Use</label>

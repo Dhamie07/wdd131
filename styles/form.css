@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f8f8ff;
     color: #333;
     margin: 0;
@@ -23,12 +23,13 @@ main {
 }
 
 .wf2 fieldset {
-        margin: 2re 0;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        padding: .5rem 2%;
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
 }
 .wf2 legend {
+    font-size: 1rem;
     color: #445ba9;
     padding: 0 .5rem;
 }
@@ -83,24 +84,24 @@ font-size: .9rem;
     display: flex;
     justify-content: top;
     gap: 10px; /* Adjust spacing between stars */
-  }
+}
   
 .stars label {
     display: block;
     align-items: center;
     cursor: pointer;
     margin-bottom: 5px;
-  }
+}
   
 .stars span {
     font-size: 1rem;
     color: #888;
     transition: color 0.3s;
-  }
+}
   
 .stars input[type="radio"]{
     display: flex;
     width: 100%;
     margin: auto;
     align-items: center;
-  }
+}
