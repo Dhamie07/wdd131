@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #17466e;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wf2 fieldset {
+        margin: 2re 0;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: .5rem 2%;
+}
+.wf2 legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+.wf2 label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .9rem;
+}
+
+.wf2 div {
+padding-top: 1rem;
+color: #445ba9;
+font-size: .9rem;
+}
+
+.wf2 input[type="text"],
+.wf2 input[type="date"],
+.wf2 textarea,
+.wf2 select
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+.wf2 input[type="radio"],
+.wf2 input[type="checkbox"]{
+    margin-right: 6px;
+}
+
+.wf2 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(grey);
+    color: black;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+
+.stars {
+    display: flex;
+    justify-content: top;
+    gap: 10px; /* Adjust spacing between stars */
+  }
+  
+.stars label {
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+.stars span {
+    font-size: 1rem;
+    color: #888;
+    transition: color 0.3s;
+  }
+  
+.stars input[type="radio"]{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
